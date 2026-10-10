@@ -1,0 +1,92 @@
+:root {
+  --cor-fundo: #f6f3e8; /* fundo geral do site */
+  --cor-superficie: #ffffff; /* cards, formulário e blocos que precisam se destacar do fundo */
+
+  --cor-verde: #6f8f72; /* botões, detalhes, links em destaque */
+  --cor-verde-escuro: #3f5f47; /* títulos, header/footer e textos de destaque */
+  --cor-verde-claro: #dce8d5; /* fundos alternativos de algumas seções */
+
+  --cor-azul: #9fc5d8; /* detalhes pequenos, tags ou algum destaque pontual */
+  --cor-creme: #eee3c4; /* segunda opção de fundo para seções */
+
+  --cor-texto: #2f342f; /* texto principal */
+  --cor-texto-suave: #666b66; /* textos secundários, descrições e footer */
+
+  --fonte-pequena: 0.875rem; /* 14px */
+  --fonte-normal: 1rem; /* 16px */
+  --fonte-media: 1.25rem; /* 20px */
+  --fonte-h3: 1.5rem; /* 24px */
+  --fonte-h2: 2rem; /* 32px */
+  --fonte-h1: 3rem; /* 48px */
+  --fonte-hero: 4rem; /* 64px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+  color: var(--cor-verde-escuro);
+}
+
+/* Header e nav */
+header {
+  width: 100%;
+  background-color: var(--cor-verde-escuro);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header img {
+  width: 65px;
+  height: auto;
+  margin: 10px 10px 10px 10px;
+}
+
+.links a {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: var(--fonte-normal);
+}
+
+a:hover {
+  color: var(--cor-verde-claro);
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    background-image: url(img/section-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
