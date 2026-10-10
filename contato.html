@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lia Alvarez" />
+    <meta
+      name="description"
+      content="Site para apresentar filmes, curiosidades e informações sobre o Studio Ghibli"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-totoro.png"
+      type="image/x-icon"
+    />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <img src="" alt="Logo da página" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Entre em contato</h1>
+      <p>
+        Tem algum filme favorito do Studio Ghibli ou quer compartilhar uma
+        curiosidade? Envie uma mensagem!
+      </p>
+      <img src="" alt="" />
+      <div>
+        <form action="">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+          />
+
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email"
+          />
+
+          <label for="assunto">Assunto</label>
+          <input
+            type="text"
+            name="assunto"
+            id="assunto"
+            placeholder="Digite o assunto"
+          />
+
+          <label for="categoria">Categoria</label>
+          <select id="categoria" name="categoria">
+            <option value="">Selecione uma opção</option>
+            <option value="filmes">Filmes</option>
+            <option value="personagens">Personagens</option>
+            <option value="curiosidades">Curiosidades</option>
+            <option value="outro">Outro</option>
+          </select>
+
+          <label for="comentario">Comentário</label>
+          <textarea
+            id="comentario"
+            name="comentario"
+            rows="5"
+            placeholder="Escreva sua mensagem"
+          ></textarea>
+
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; Universo Ghibli</p>
+      <p>Desenvolvido por Mago Jr - 2026</p>
+    </footer>
+  </body>
+</html>
