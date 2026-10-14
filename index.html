@@ -1,62 +1,63 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Lia Alvarez" />
-    <meta
-      name="description"
-      content="Site para apresentar filmes, curiosidades e informações sobre o Studio Ghibli"
-    />
-    <link
-      rel="shortcut icon"
-      href="img/favicon-totoro.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Lia Alvarez" />
+  <meta name="description" content="Site para apresentar filmes, curiosidades e informações sobre o Studio Ghibli" />
+  <link rel="shortcut icon" href="img/favicon-totoro.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
 
-    <title>Universo Ghibli</title>
-  </head>
-  <body>
-    <header>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <title>Universo Ghibli</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <img src="img/logo.png" alt="Logo da página" />
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- seção do herói -->
+    <section" class="hero">
       <div class="container">
-        <img src="img/logo.png" alt="Logo da página" />
-
-        <nav class="links">
-          <a href="index.html">Home</a>
-          <a href="sobre.html">Sobre</a>
-          <a href="contato.html">Contato</a>
-        </nav>
-
-      </div>
-    </header>
-
-    <main>
-      <section class="hero">
         <h1>Entre no universo do Studio Ghibli</h1>
         <p>Histórias que transformam o cotidiano em magia.</p>
+      </div>
       </section>
 
-      <section>
-        <h2>Sobre</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum
-          ab suscipit? Magni tempora necessitatibus, quis, exercitationem sit
-          repudiandae facere repellendus suscipit, asperiores maiores rem.
-        </p>
-        <img src="" alt="" />
+      <!-- seção sobre o studio Ghibli-->
+      <section class="sobre">
+        <div class="container">
+          <h2>Sobre</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum
+            ab suscipit? Magni tempora necessitatibus, quis, exercitationem sit
+            repudiandae facere repellendus suscipit, asperiores maiores rem.
+          </p>
+          <img src="" alt="" />
+        </div>
       </section>
 
-      <section>
+      <!-- seção filmes do studio Ghibli -->
+      <section class="filmes">
         <h2>Filmes</h2>
-        <div>
+        <div class="container">
+
           <article>
             <img src="" alt="" />
             <h3>Castelo Animado</h3>
@@ -85,10 +86,16 @@
           </article>
         </div>
       </section>
-    </main>
-    <footer>
+
+  </main>
+
+  <!-- seção final -->
+  <footer class="rodape">
+    <div class="container">
       <p>&copy; Universo Ghibli</p>
       <p>Desenvolvido por Mago Jr - 2026</p>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
